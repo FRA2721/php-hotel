@@ -72,7 +72,7 @@ $hotelsArray = [
     foreach ($hotelsArray as $voice => $hotel) { ?>
 
         <?php foreach ( $hotel as $key => $value ) { ?>
-            <span><?php echo $key; ?>: </span>
+            <?php echo $key . ':' ;?>
             <span><?php echo $value; ?></span>
             <?php echo '<br>';?>
 
