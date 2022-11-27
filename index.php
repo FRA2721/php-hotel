@@ -1,5 +1,7 @@
+<!-- php -->
 <?php
 $hotelsArray = [
+
     // hotel 1 
     [
         'name' => 'Hotel Belvedere',
@@ -45,8 +47,9 @@ $hotelsArray = [
         'distance_to_center' => 50
     ],
 ];
-
 ?>
+<!-- /php -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -61,9 +64,24 @@ $hotelsArray = [
 </head>
 
 <body>
-    <?php 
-        echo "test";
-    ?>
+
+    <!-- php -->
+    <?php
+
+    // print hotelsArray items on screen
+    foreach ($hotelsArray as $voice => $hotel) { ?>
+
+        <?php foreach ($hotel as $key => $value) { ?>
+            <span><?php echo $key ?>: </span>
+            <span><?php echo $value; ?></span>
+            <?php echo '<br>'?>
+
+        <?php }; ?>
+        <?php echo '<br>'?>
+        
+    <?php }; ?>
+    <!-- /php -->
+
 </body>
 
 </html>
