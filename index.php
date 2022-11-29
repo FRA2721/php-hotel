@@ -69,6 +69,34 @@ $hotels = [
 
 <body>
 
+    <!-- form section to select the hotel that the user prefer -->
+    <form action="index.php" method="GET">
+        <label for="parking">Parking</label>
+
+        <!-- user parking choice -->
+        <select name="parking" id="parking">
+            <option value="0">...</option>
+            <option value="1">Yes</option>
+            <option value="2">No</option>
+        </select>
+        <!-- /user parking choice -->
+
+        <!-- user vote choice -->
+        <label for="vote">Vote</label>
+        <select name="vote" id="vote">
+            <option value="">...</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <!-- /user voice choice -->
+
+        <button type="submit">Search</button>
+    </form>
+    <!-- /form section to select the hotel that the user prefer -->
+
     <!-- hotels table -->
     <table class="table">
 
