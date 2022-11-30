@@ -1,0 +1,69 @@
+/* general reset formatting sction */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* h1 tipography formatting section */
+h1{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+/* body formatting section */
+body{
+    background-color: lightgray;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/* table formatting section */
+.table{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    border: 3px solid grey;
+}
+
+/* table row */
+tr{
+    text-align: center;
+}
+
+/* form formatting section */
+form{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+/* label formatting section */
+label{
+    margin-left: 20px;
+    color: rgb(146, 133, 133);
+}
+
+/* select formatting section */
+select{
+    width: 100px;
+    border-radius: 50px;
+    border: 2px solid black;
+    color: grey;
+}
+
+/* button formatting section */
+button{
+    border-radius: 50px;
+    padding: .5rem;
+    margin-left: 3rem;
+    transition-duration: 1s;
+}
+
+button:hover{
+    color: white;
+    background-color: gray;
+    border: 2px solid white;
+    width: 500px;
+}
+
